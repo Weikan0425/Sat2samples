@@ -23,3 +23,4 @@ A collection of tools to easliy acquire and crop large-scale satellite imagery i
 - GEE: [Awesome-GEE](https://github.com/opengeos/Awesome-GEE).
 - Sentinel 1: [Google-Sentinel-1](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#description).
 - Sentinel 2: [Google-Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED).
+- Mapshaper: [Mapshaper](https://mapshaper.org/).
