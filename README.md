@@ -14,12 +14,16 @@ A collection of tools to easliy acquire and crop large-scale satellite imagery i
 - Step 3: Upload the shapefile of the grids followed by last step to your GEE assets.
 - Step 4: Use the `notebooks` in this project to download  **Sentinel 1/2** satelite images with preprocessing.
 - Step 5: Use the `.py` files in this project to crop the satelite images to samples.
-
-## 3. Contact 
+## 3. Details
+- `Sentinel-1.ipynb`: use to download the Sentinel-1_GRD satelite imagery of your ROI.(VV,VH,UInt8)
+- `Sentinel-2.ipynb`: use to download the Sentinel-2 satelite imagery of your ROI.
+- `S2_process.py`: use to process Sentinel-2 images including `float32()toUInt16()`,`Compress`.
+- `dataset_crop/crop_v2.py`: use to crop the satelite images to samples such as 512*512.
+## 4. Contact 
 &emsp; If you encounter any problem in using the Sat2samples or have any feedback, please contact:
 -  E-mail: 2309162135@geemail.one
 
-## 4. Reference
+## 5. Reference
 - GEE: [Awesome-GEE](https://github.com/opengeos/Awesome-GEE).
 - Sentinel 1: [Google-Sentinel-1](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD#description).
 - Sentinel 2: [Google-Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED).
